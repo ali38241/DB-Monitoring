@@ -14,11 +14,11 @@ import com.MFSYS.DB.Monitoring.Services.DbService;
 @CrossOrigin(exposedHeaders="Access-Control-Allow-Origin")
 @RequestMapping("/")
 @RestController
-public class Controller {
+public class DbController {
 	
 	private DbService dbService;
 	@Autowired
-	public Controller(DbService dbService) {
+	public DbController(DbService dbService) {
 		this.dbService = dbService;
 	}
 	
